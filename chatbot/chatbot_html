@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day1</title>
+    <link rel="stylesheet" href="Day11.css">
+</head>
+<body>
+    <div id="console">
+
+    </div>
+
+    <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F108%2F2021%2F12%2F08%2F0003011415_001_20211208183002477.jpg&type=a340" alt="미캉">
+<br>
+<br>
+    <input class="say"  type="text" placeholder=" 강아지에게 말을 걸어보아요">
+
+    <button id="btn" type="button">시키기</button>
+ <script src="Day11.js"></script>   
+</body>
+</html>
