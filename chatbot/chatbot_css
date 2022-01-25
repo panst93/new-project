@@ -1,0 +1,45 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Cafe24Ssurround';
+}
+
+body {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+div#console {
+  width: 100%;
+  height: 200px;
+  border: 3px solid #00bbf0;
+  color: #fdb44b;
+  line-height: 200px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+input {
+  display: block;
+  width: 300px;
+  height: 25px;
+  margin: 10px auto;
+  border: 3px solid #00bbf0;
+  text-indent: 1;
+}
+
+img {
+  width: 200px;
+  margin: 15px;
+}
+
+button {
+  display: block;
+  width: 200px;
+  height: 35px;
+  margin: 0 auto;
+  border: 0px;
+  background-color: #fdb44b;
+  border-radius: 15px;
+}
