@@ -1,0 +1,24 @@
+const btn =document.querySelector("#btn");
+const input =document.querySelector(".say");
+const view =document.querySelector("#console");
+const img =document.querySelector("img");
+
+btn.addEventListener("click", (e) => {
+    const question = input.value;
+
+    console.log(question.includes("도운아"));
+
+    if(question.includes("도운아")){
+        view.innerHTML = "어쨌든간에~?";
+        img.src = "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDAxMTJfOTkg%2FMDAxNTc4ODIxMzczMTgz.BkyoxJEFxbkmHe3kkxskiej8XGczDkUa295kGRFj-NMg.TqKelKjearGYDgb-UUYJEBgxq5soecKL-BSSX0NgTj8g.JPEG.remnant1347%2F1578821372096.jpg&type=a340";
+    }else if(question.includes("마이데이")){
+        view.innerHTML ="사랑해요";
+        img.src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDA4MTZfNDQg%2FMDAxNTk3NTIxNDAxNDk5.TcwaKMahGHAvPULJph1zmhG3_YJ_YHoZHkYv-NTjN8Ag.jp1mJLOJuA3R5FdRr4B6PBUgbn_ulcA8fOTbLgehmQQg.JPEG.string31%2FIMG_6976.JPG&type=a340";  
+    }else if(question.includes("Day6")){
+        view.innerHTML="앞으로도 Day6";
+        img.src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxOTA5MjhfMjg0%2FMDAxNTY5NjM5MDc4OTgy.wf0sFXVUEXzU0JgR9Tp99iaDggw6q1nKRpFl-TxRttYg.g-qnwHYD-bcfEeYEsaCOaPUXt7K5uGPyTfpQk76CH-Ig.JPEG.adyor%2F15.jpg&type=a340";
+    }else if(question.includes("불 좀 꺼줘")){
+        view.innerHTML="자라";
+        img.src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDAxMDVfMTY4%2FMDAxNTc4MjM0OTQxNjAy.IRPhol5CxD4Ly6y38Bj-dkRiPgNPlQTp1ZhXSt-3ki0g.2_3h4DqoqH-sydUqN3ZGma1El7WDj6oc9vFUHk-BiuMg.JPEG.remnant1347%2F1578234940019.jpg&type=a340";
+        document.querySelector("body").style.backgroundColor=("#444444");
+    }})
